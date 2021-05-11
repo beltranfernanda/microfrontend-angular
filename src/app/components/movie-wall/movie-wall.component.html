@@ -1,0 +1,7 @@
+<div class="d-flex justifiy-content-center align-items-start flex-wrap">
+    <app-card *ngFor="let movie of movies" 
+        [imgUrl]="movie.posterPath" 
+        [title]="movie.title" 
+        [date]="movie.releaseDate">
+    </app-card>
+</div>
